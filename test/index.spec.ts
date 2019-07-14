@@ -11,14 +11,6 @@ describe('isN', () => {
     expect(isN(5)).to.be.true;
   });
 
-  it('Returns false for `[]`', () => {
-    expect(isN([])).to.be.false;
-  });
-
-  it('Returns false for `{}`', () => {
-    expect(isN({})).to.be.false;
-  });
-
   it(`Returns false for ''`, () => {
     expect(isN('')).to.be.false;
   });
