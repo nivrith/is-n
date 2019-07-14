@@ -20,7 +20,6 @@ check if input is a number
   import isN from 'is-n';
 
   isN(-0); // true
-  isN({}); //false
   isN(NaN); //false
   isN(5/2); //true
 
